@@ -1,0 +1,31 @@
+body::after {
+  font-size: 300%;
+  font-weight: bold;
+  position: fixed;
+  bottom: 60px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+/* responsive styles */
+@media only screen and (max-width: 767px) {
+  body::after {
+    content: "below 768px";
+    background-color: hsla(103, 61%, 40%, 0.7);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body::after {
+    content: "768 to 811px";
+    background-color: hsla(270, 60%, 40%, 0.7);
+  }
+}
+
+@media only screen and (min-width: 811px) {
+  body::after {
+    content: "811 and up";
+    background-color: hsla(360, 60%, 40%, 0.7);
+  }
+}
