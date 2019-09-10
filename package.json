@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "stylelint-config-recommended": "^2.2.0"
+  }
+}
