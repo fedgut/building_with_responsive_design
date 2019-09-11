@@ -125,6 +125,8 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  background: white;
+  z-index: 10;
 }
 
 .sticky-bar .top-nav {
@@ -241,10 +243,18 @@ section {
   margin-bottom: 0.5rem;
 }
 
-.news-item a {
+.news-item > a {
   display: grid;
-  grid-template-columns: 10rem 1fr;
-  grid-column-gap: 1rem;
+  grid-template-columns: 35% 1fr;
+  grid-column-gap: 0.75rem;
 }
 
-.news-item  h2 {}
+.news-item h2 {
+  font-size: 0.85rem;
+}
+
+.news-item .author {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
