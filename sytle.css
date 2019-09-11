@@ -230,3 +230,21 @@ main {
 .post .post-info span {
   margin-right: 0.5rem;
 }
+
+section {
+  padding: 0.5rem 0.85rem;
+}
+
+.section-heading {
+  color: red;
+  font-size: 1.65em;
+  margin-bottom: 0.5rem;
+}
+
+.news-item a {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  grid-column-gap: 1rem;
+}
+
+.news-item  h2 {}
