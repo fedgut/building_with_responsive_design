@@ -255,6 +255,23 @@ section {
 .invest-links {
   color: rgb(255, 78, 34);
   margin-top: 0.45rem;
+  font-size: 0.95rem;
+}
+
+.section-img {
+  object-fit: cover;
+  max-height: 75px;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  grid-column-gap: 0.75rem;
+}
+
+.latest-right {
+  display: flex;
+  flex-direction: column;
 }
 
 .fourths {
@@ -262,6 +279,7 @@ section {
   display: flex;
   flex-direction: column;
   position: relative;
+  color: #666;
 }
 
 .invest-logo {
@@ -284,6 +302,7 @@ section {
 .market-cap {
   padding: 10px 0 10px 80px;
   background-color: rgb(250, 211, 204);
+  color: #000;
 }
 
 .investment-extra {
@@ -299,3 +318,8 @@ section {
   padding-left: 7px;
 }
 
+.key {
+  border-top: 1px solid rgba(253, 108, 82, 0.472);
+  padding: 7px 0 0 10px;
+  font-size: 0.75rem;
+}
