@@ -289,7 +289,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 5;
 }
 
 .investment-header {
@@ -322,4 +322,23 @@ section {
   border-top: 1px solid rgba(253, 108, 82, 0.472);
   padding: 7px 0 0 10px;
   font-size: 0.75rem;
+}
+
+.most-popular {
+  width: 100%;
+  margin: 0.85rem;
+  padding-top: 75%;
+  position: relative;
+}
+
+.background {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(images/google_docs.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
