@@ -9,23 +9,23 @@ body::after {
 }
 
 /* responsive styles */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 840px) {
   body::after {
-    content: "below 768px";
+    content: "below 840px";
     background-color: hsla(103, 61%, 40%, 0.7);
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 841px) {
   body::after {
-    content: "768 to 811px";
+    content: "841 to 1110px";
     background-color: hsla(270, 60%, 40%, 0.7);
   }
 }
 
-@media only screen and (min-width: 811px) {
+@media only screen and (min-width: 1111px) {
   body::after {
-    content: "811 and up";
+    content: "1111 and up";
     background-color: hsla(360, 60%, 40%, 0.7);
   }
 }

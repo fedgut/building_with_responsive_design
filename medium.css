@@ -1,0 +1,27 @@
+@media only screen and (min-width: 841px) {
+  .last-fourth {
+    display: none;
+  }
+
+  .top-nav {
+    display: grid;
+    background: purple;
+    grid-template-columns: 1fr 96px;
+    grid-template-rows: auto;
+  }
+
+  .nav-links {
+    grid-column: 1;
+    width: 100%;
+    display: gird;
+    grid-template-columns: 8rem 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .search-menu {
+    grid-column: 2;
+  }
+
+  .nav-white {
+    font-size: 110%;
+  }
+}

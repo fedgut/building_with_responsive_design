@@ -140,7 +140,7 @@ img {
   justify-content: space-between;
 }
 
-.top-nav .right {
+.top-nav .search-menu {
   display: flex;
 }
 
@@ -526,8 +526,12 @@ section {
   color: rgba(66, 66, 66, 0.664);
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 840px) {
   .last-fourth {
+    display: none;
+  }
+
+  .nav-white {
     display: none;
   }
 }
