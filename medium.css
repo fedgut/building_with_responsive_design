@@ -1,8 +1,4 @@
 @media only screen and (min-width: 841px) {
-  .last-fourth {
-    display: none;
-  }
-
   .top-nav {
     display: grid;
     grid-template-columns: 1fr 96px;
@@ -32,9 +28,43 @@
     color: rgba(34, 34, 34, 0.712);
   }
 
+  .nav-white:first-of-type {
+    padding-left: 15px;
+  }
+
   .search-menu > span {
     display: none;
-    visibility: hidden;
     position: absolute;
+  }
+
+  .search-menu > span > img {
+    display: none;
+  }
+
+  .fourths-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .fourths {
+    padding: 0 10px;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .latest-news-deals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .sechead {
+    grid-column: 1 / span 3;
+  }
+
+  .core {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

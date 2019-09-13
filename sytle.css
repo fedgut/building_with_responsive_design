@@ -526,11 +526,11 @@ section {
   color: rgba(66, 66, 66, 0.664);
 }
 
-@media only screen and (max-width: 840px) {
-  .last-fourth {
-    display: none;
-  }
+.last-fourth {
+  display: none;
+}
 
+@media only screen and (max-width: 840px) {
   .nav-white {
     display: none;
   }
