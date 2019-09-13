@@ -248,18 +248,16 @@ section {
   margin-bottom: 0.5rem;
 }
 
-.news-item h2 {
-  font-size: 1.4rem;
-}
-
 .news-item .author {
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 1.5;
+  color: rgba(66, 66, 66, 0.664);
 }
 
-.news-item-content > a {
+.news-item-content > a > h2 {
   margin-top: 0.5rem;
+  font-size: 90%;
 }
 
 .invest-links {
@@ -277,6 +275,7 @@ section {
   display: grid;
   grid-template-columns: 75px 1fr;
   grid-column-gap: 0.75rem;
+  margin-bottom: 12px;
 }
 
 .latest-right {
@@ -505,4 +504,23 @@ section {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.deals-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deals-header > a {
+  color: red;
+  text-decoration: rgba(255, 0, 0, 0.76);
+}
+
+.news-item .deal {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(66, 66, 66, 0.664);
 }
