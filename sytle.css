@@ -182,7 +182,7 @@ img {
   display: block;
 }
 
-main {
+.first-container {
   padding: 0.25rem 0.5rem;
 }
 
@@ -478,6 +478,30 @@ section {
   bottom: 0;
   right: 0;
   background-image: url(images/insights.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-launch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(images/launch.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-distract {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(images/distract.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
