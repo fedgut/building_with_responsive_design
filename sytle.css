@@ -378,7 +378,7 @@ section {
 .latest {
   color: #f42;
   font-size: 13px;
-  padding: 10px;
+  padding: 0 0 0 10px;
   height: 95px;
   display: flex;
   overflow: hidden;
@@ -389,7 +389,7 @@ section {
 .article-header {
   font-size: 90%;
   font-weight: 300;
-  padding-bottom: 4px;
+  padding: 10px 0 5px 0;
 }
 
 .article-link {
@@ -410,7 +410,6 @@ section {
 .latest-img {
   width: 95px;
   height: 95px;
-  margin: 0 0 0 10px;
   object-fit: cover;
 }
 
@@ -467,6 +466,18 @@ section {
   bottom: 0;
   right: 0;
   background-image: url(images/podium.jpeg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-insights {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(images/insights.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
