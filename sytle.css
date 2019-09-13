@@ -435,3 +435,39 @@ section {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.background-tech {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(images/tech.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-creative {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(images/creative.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-podium {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(images/podium.jpeg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
