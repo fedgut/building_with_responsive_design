@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1111px) {
+  .fourths-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .fourths {
+    max-width: 315px;
+  }
+
+  .fourths:last-of-type {
+    display: block;
+  }
+}
