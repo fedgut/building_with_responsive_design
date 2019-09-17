@@ -535,3 +535,7 @@ section {
     display: none;
   }
 }
+
+.latest-news-deals {
+  gap: 0.5rem;
+}
