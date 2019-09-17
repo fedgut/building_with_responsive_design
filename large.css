@@ -5,7 +5,7 @@
   }
 
   .fourths {
-    max-width: 315px;
+    max-width: 335px;
   }
 
   .fourths:last-of-type {
@@ -17,9 +17,22 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     max-width: 1410px;
+    margin: 0 auto;
   }
 
   .sechead {
     grid-column: 1 / span 4;
+  }
+
+  .latest-funding {
+    margin: 0 auto;
+    max-width: 1410px;
+  }
+
+  .core {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1410px;
+    margin: 0 auto;
   }
 }
