@@ -47,6 +47,22 @@
     display: none;
   }
 
+  .main-article .post-title {
+    font-size: 2rem;
+}
+
+  .main-article .post-category {
+    font-size: 1.4rem;
+}
+
+  .main-article .post-info .author {
+    font-size: 1.2rem;
+  }
+
+  .main-article .post-info .post-time {
+    font-size: 1.2rem;
+  }
+
   .fourths-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

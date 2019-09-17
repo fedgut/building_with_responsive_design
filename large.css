@@ -1,4 +1,36 @@
 @media only screen and (min-width: 1111px) {
+  .main-article .post-title {
+    font-size: 3rem;
+}
+
+  .main-article .post-category {
+    font-size: 2rem;
+}
+
+  .main-article .post-info .author {
+    font-size: 1.3rem;
+  }
+
+  .main-article .post-info .post-time {
+    font-size: 1.3rem;
+  }
+
+  .main-article2 .post-title {
+    font-size: 2rem;
+  }
+
+  .main-article2 .post-category {
+    font-size: 1.4rem;
+  }
+
+  .main-article2 .post-info .author {
+    font-size: 1.2rem;
+  }
+
+  .main-article2 .post-info .post-time {
+    font-size: 1.2rem;
+  }
+
   .fourths-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
