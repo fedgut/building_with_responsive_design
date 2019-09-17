@@ -1,11 +1,11 @@
 @media only screen and (min-width: 1111px) {
   .main-article .post-title {
     font-size: 3rem;
-}
+  }
 
   .main-article .post-category {
     font-size: 2rem;
-}
+  }
 
   .main-article .post-info .author {
     font-size: 1.3rem;

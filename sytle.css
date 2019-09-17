@@ -185,6 +185,10 @@ img {
   padding: 0.25rem 0.5rem;
 }
 
+.accesibility-info {
+  display: none;
+}
+
 .post {
   position: relative;
   color: white;
