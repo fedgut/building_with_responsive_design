@@ -2,6 +2,7 @@
 A clone of TNW magazine with responsive design 
 
 [Demo](https://raw.githack.com/fedgut/building_with_responsive_design/create-tnw-page/index.html)
+
 [Exact same demo but with media query reporters](https://raw.githubusercontent.com/fedgut/building_with_responsive_design/create-tnw-page/indexMQ.html)
 
 ## Breakpoints:
