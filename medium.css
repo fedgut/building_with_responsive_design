@@ -72,6 +72,7 @@
     display: grid;
     grid-template-columns: 66% 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 3px 10px;
   }
 
   .main-article {
