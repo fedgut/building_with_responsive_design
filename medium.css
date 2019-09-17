@@ -35,7 +35,7 @@
   .info-bar {
     text-align: left;
     padding-left: 10%;
-    font-size: 0.8rem;  
+    font-size: 0.8rem;
   }
 
   .search-menu > span {
@@ -92,5 +92,21 @@
 
   .main-article2 {
     grid-column: 2;
+  }
+
+  .news-item {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 12px 10px 0 0;
+  }
+
+  .news-item:last-of-type {
+    margin: 12px 0 0 0;
+  }
+
+  .section-img {
+    object-fit: cover;
+    max-height: 155px;
+    max-width: 330px;
   }
 }

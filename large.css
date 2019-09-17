@@ -11,4 +11,15 @@
   .fourths:last-of-type {
     display: block;
   }
+
+  .latest-news-deals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: 1410px;
+  }
+
+  .sechead {
+    grid-column: 1 / span 4;
+  }
 }
