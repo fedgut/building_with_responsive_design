@@ -125,4 +125,29 @@
     max-height: 155px;
     max-width: 330px;
   }
+
+  .main-bar {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    align-items: center;
+  }
+
+  .main-bar a {
+    color: rgba(255, 255, 255, 0.753);
+    padding: 5px 10px;
+  }
+
+  .main-map {
+    display: none;
+  }
+
+  .main-menu a:first-of-type {
+    color: rgba(255, 255, 255);
+  }
+
+  .black-link:hover {
+    color: white;
+  }
 }

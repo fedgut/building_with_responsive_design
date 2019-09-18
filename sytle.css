@@ -281,6 +281,7 @@ section {
   position: relative;
   color: #666;
   margin: 15px 0;
+  width: 90vw;
 }
 
 .invest-logo {
@@ -562,6 +563,10 @@ footer {
   font-size: 80%;
 }
 
+.tnw-footer {
+  width: 45px;
+}
+
 .made {
   color: white;
   background: #000;
@@ -588,5 +593,9 @@ footer {
   .section-img {
     object-fit: cover;
     max-height: 75px;
+  }
+
+  .main-bar {
+    display: none;
   }
 }
